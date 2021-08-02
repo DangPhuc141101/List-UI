@@ -1,0 +1,157 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Rubik', sans-serif;
+}
+
+#background{
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.left{
+	position: relative;
+	flex-basis: 50%;
+	background: #fff; 
+}
+
+.right{
+	position: relative;
+	flex-basis: 50%;
+	background: #ff7878; 
+}
+
+.left .logo{
+	width: 80px;
+	margin: 30px 80px;
+}
+
+.left .content{
+	position: absolute;
+	width: 290px;
+	top: 170px;
+	left: 80px;
+}
+
+.content .rating{
+	width: 90px;
+}
+
+.content h1{
+    font-size: 58px;
+    margin: 15px 0 30px;
+}
+
+.content p{
+    font-size: 13px;
+    color: #949494;
+    line-height: 15px;
+    margin-bottom: 80px;
+}
+
+.content .btn-arrow{
+	border: none;
+	background: #ff7878;
+	color: #fff;
+	padding: 15px 30px;
+	border-radius: 10px;
+	cursor: pointer;
+	align-items: center;
+	display: flex;
+}
+
+.content .btn-arrow img{
+	width: 25px;
+	margin-left: 10px;
+}
+
+.left .left-arrow{
+	right: 20px;
+	width: 65px;
+	position: absolute;
+	bottom: 0;
+}
+
+.right .navbar{
+	 width: 80%;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.search-box{
+	padding: 7px 15px;
+	background: rgba(255,255,255,0.3);
+	border-radius: 20px;
+	align-items: center;
+	display: flex;
+}
+
+.search-box input{
+	border: none;
+	background: transparent;
+	outline: none;
+}
+
+::placeholder{
+	color: #fff;
+	font-size: 10px;
+}
+
+.search-box img{
+	width: 13px;
+	margin-left: 20px;
+}
+
+.right .right-arrow{
+	left: 20px;
+	width: 65px;
+	position: absolute;
+	bottom: 0;
+}
+
+.right ul{
+	display: flex;
+}
+
+.right ul li{
+	list-style-type: none;
+	margin-left: 50px;
+}
+
+.right ul li a{
+	text-decoration: none;
+	color: #fff;
+	display: flex;
+	font-size: 14px;
+	align-items: center;
+}
+
+.right ul li a img{
+	width: 15px;
+	margin-right: 15px;
+}
+
+.more-item {
+	display: block;
+	position: absolute;
+	right: 100px;
+	width: 290px;
+	bottom: -35px;
+}
+
+.more-item img{
+ 	width: 220px;
+ 	margin: 10px 0;
+}
+
+.fruit{
+	width: 550px;
+	top: 50%;
+	left: 52%;
+	position: absolute;
+	transform: translate(-50%, -53%);
+}
